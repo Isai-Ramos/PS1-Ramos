@@ -90,7 +90,7 @@
         /* max-width: 400px; */
         margin-top: 7em ;
         margin-left:1em;
-        margin-right: 5em;
+        margin-right: 2em;
         border-radius: 5px;
         width: 800px;
         height: 700px;
@@ -121,6 +121,15 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: xx-large;
     margin-left: 11em;
+}
+/*estilos de email,direccion etc, de la pagina contacto */ 
+.Datos{
+    color: black;
+    text-decoration: none;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    margin-left: 6em;
 }
 /*texto en la esquina con fondo*/ 
 .estiloRectagulo{
@@ -166,7 +175,7 @@
     max-height: 180px;
     
 }
-article{
+.articulos{
     float: left;
     width: 22%;
     height: 280px;
