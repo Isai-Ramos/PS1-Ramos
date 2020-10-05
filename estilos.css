@@ -22,13 +22,12 @@
 
 .menu>a:hover{
     color: rgb(240, 72, 72);
-    font-size: large;
-    font-weight: normal;
+   
 }
 
 
 
- /*mene en la dereecha */ 
+ /*menu en la dereecha */ 
 .menuRight>a{
     color: black;
     text-decoration: none;
@@ -41,8 +40,7 @@
 
 .menuRight>a:hover{
     color: rgb(240, 72, 72);
-    font-size: large;
-    font-weight: normal;
+   
 }
 
 .menuRight{
@@ -65,8 +63,7 @@
 }
 .menuleft>a:hover{
     color: rgb(240, 72, 72);
-    font-size: large;
-    font-weight: normal;
+    
 }
 .menuleft{
     float: left;
@@ -189,4 +186,59 @@
 .Productos{
    
     padding-left: 13em;
+}
+
+/*acomodar las cajas de texto de la seccion contactos para que quede bn centrado */ 
+
+.Formulario{
+    float:right;
+    margin-top: 5em;
+   margin-right: 10em;
+}
+
+/*estilo a las cojas de texto de seccion contactos */ 
+
+.cajadeTxt1{
+    margin-left: 2em;
+    background-color: black;
+    border-color: black;
+    color: whitesmoke;
+
+}
+.cajadeTxt2{
+
+    margin-left: 2em;
+    background-color: black;
+    border-color: black;
+    color: whitesmoke;
+}
+.cajadeTxt3{
+
+    margin-left: 2em;
+    background-color: black;
+    border-color: black;
+    color: whitesmoke;
+    padding-top: 1em;
+    width: 265px;
+    height: 50px;
+    position:bottom; margin: 10px 0 0 1px;
+}
+
+/*estilo y centadro del boton */ 
+.boton{
+    /*estilo del texto y tama;o del boton */ 
+
+    color: black;
+    text-decoration: none;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    /*estilo del boton */ 
+    background-color: black;
+    border-color: black;
+    color: whitesmoke;
+      /*ubicacion del boton */
+    float: Right;
+    margin-top: 10px;
+
 }
